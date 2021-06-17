@@ -124,7 +124,7 @@ while True:
 	lis3mdl.mag_opmode()
 	lis3mdl.mag_opmode_z()
 	mag = lis3mdl.readmag()
-	print("Magnetic Field in X-Axis : %d"%(['x']))
+	print("Magnetic Field in X-Axis : %d"%(mag['x']))
 	print("Magnetic Field in Y-Axis : %d"%(mag['y']))
 	print("Magnetic Field in Z-Axis : %d"%(mag['z']))
 	print(" ************************************* ")
