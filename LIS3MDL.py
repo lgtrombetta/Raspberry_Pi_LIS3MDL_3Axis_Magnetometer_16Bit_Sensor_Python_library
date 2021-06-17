@@ -112,7 +112,7 @@ class LIS3MDL():
 		if zMAG > 32767 :
 			zMAG -= 65536
 
-		return {'x' : xMag, 'y' : yMag, 'z' : zMag}
+		return {'x' : xMAG, 'y' : yMAG, 'z' : zMAG}
 
 from LIS3MDL import LIS3MDL
 lis3mdl = LIS3MDL()
